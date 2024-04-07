@@ -1,0 +1,27 @@
+<Course>
+    <computerScience>
+        <StudentName> Ganesh </StudentName>
+        <Class> 10th </Class>
+        <percentage>91%</percentage>
+    </computerScience>
+    <computerScience>
+        <StudentName> Rohan </StudentName>
+        <Class> 11th </Class>
+        <percentage>80%</percentage>
+    </computerScience>
+    <computerScience>
+        <StudentName> Vaishnavi </StudentName>
+        <Class> 12th </Class>
+        <percentage>60%</percentage>
+    </computerScience>
+    <computerScience>
+        <StudentName> Parag </StudentName>
+        <Class> 11th </Class>
+        <percentage>90%</percentage>
+    </computerScience>
+    <computerScience>
+        <StudentName> Gopal </StudentName>
+        <Class> 6th </Class>
+        <percentage>95%</percentage>
+    </computerScience>
+</Course>
