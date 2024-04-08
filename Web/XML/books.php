@@ -7,4 +7,4 @@
         // echo "<br>Percentage : ". $student->percentage;
         echo "<br><hr>";
     }
-?>
+?
