@@ -5,6 +5,8 @@ public class word extends Thread {
     File f;
     boolean found;
 
+
+
     public word(String s,File f){
         this.toSearch = s;
         this.f = f;

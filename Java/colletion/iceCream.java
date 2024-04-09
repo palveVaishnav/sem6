@@ -5,7 +5,6 @@ public class iceCream {
         // accept the flavours in set
         // connvert the set to hash map
         public static void main(String[] args){
-                
                 Scanner scan = new Scanner(System.in);
                 List<String> flavours = new ArrayList<>();
                 String flavour = "";

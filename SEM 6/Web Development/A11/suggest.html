@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Suggestion</title>
+	</head>
+	<body>
+		<input type="text" id="query_input" onkeyup="showSuggestion()" placeholder="Type something..">
+	<p id="output">
+
+	</p>
+	</body>
+	<script>
+		var url="http://192.168.16.1/ty218531/SEM6/Web Development/A11/suggest.html;
+		xmlhttp=new XMLHttpRequest();
+		q=document.querySelector("#query_input").value;
+		function showSuggestion(){
+			q=document.querySelector("#query_input").value;
+			console.log(q);
+			xmlhttp.onreadystatechange=function(){
+				if(xmlhttp.readyState==4 && xmlhttp.status==200){
+					document.querySelector("#output").innerHTML=xmlhttp.responseText;
+				}
+			}
+			xmlhttp.open("GET",url+ "?q="+ q);
+			xmlhttp.send();
+		}
+	</script>
+</html>
