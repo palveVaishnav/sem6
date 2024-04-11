@@ -42,7 +42,6 @@ int search(int length)
 	return -1;
 }
 
-
 void allocate()
 {
 	char fname[10];
